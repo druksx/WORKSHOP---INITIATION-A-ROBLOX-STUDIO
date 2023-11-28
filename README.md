@@ -23,43 +23,43 @@ Insérez un Part simple dans votre espace de travail en utilisant l'onglet "Mod�
 ### Tâche 1 : Création d'un Part par Script
 - Utilisez Knit pour créer un script qui génère un Part dans le monde de jeu.
 - Le Part doit être visible et accessible dans l'Explorateur.
-- **Référence :** [Creating Parts with Code]()
+- **Référence :** [Creating Parts with Code](https://developer.roblox.com/en-us/api-reference/function/Instance/new)
   
 ### Tâche 2 : Manipulation des Propriétés d'un Part
 - Écrivez un script qui change la couleur et la transparence d'un Part existant.
 - Utilisez TweenService pour animer la modification des propriétés.
-- **Référence :** [Properties of Parts]()
+- **Référence :** [Properties of Parts](https://developer.roblox.com/en-us/api-reference/class/Part)
 
 ### Tâche 3 : Comprendre l'Ancre et les Collisions
 - Créez un script pour alterner l'état d'ancrage d'un Part.
 - Ajoutez une interaction pour désactiver les collisions avec d'autres objets.
-- **Référence :** [Anchored]()
+- **Référence :** [Anchored](https://developer.roblox.com/en-us/api-reference/property/BasePart/Anchored)
 
 ### Tâche 4 : Utilisation des Boucles While
 - Écrivez un script avec une boucle while pour faire pivoter un Part indéfiniment.
 - Assurez-vous d'inclure une condition de sortie sécurisée pour éviter une boucle infinie.
-- **Référence :** [Loops]()
+- **Référence :** [Loops](https://developer.roblox.com/en-us/articles/Loops)
 
 ### Tâche 5 : Explorer les Services Roblox
 - Utilisez Players pour écrire un script qui envoie un message de bienvenue à chaque joueur qui rejoint le jeu.
 - Utilisez le Workspace pour changer l'éclairage global du jeu.
-- **Référence :** [Client-Server Model]()
-- [(Au cas où)]()
-- **Référence :** [Services]()
+- **Référence :** [Client-Server Model](https://create.roblox.com/docs/reference/engine/classes/RemoteEvent)
+- [(Au cas où)](https://create.roblox.com/docs/fr-fr/scripting/events/remote)
+- **Référence :** [Services](https://developer.roblox.com/en-us/articles/Loops)
 
 ### Tâche 6 : Interaction avec les Événements
 - Attachez un événement à un Part pour qu'il réagisse lorsqu'un joueur le touche.
 - Le script doit vérifier si c'est bien un joueur qui a touché le Part.
-- **Référence :** [Touched Event]()
+- **Référence :** [Touched Event](https://developer.roblox.com/en-us/api-reference/event/BasePart/Touched)
 
 ### Tâche 7 : Comprendre le Modèle Client/Serveur
 - Créez un exemple où un script local communique avec un script serveur via RemoteEvent.
-- **Référence :** [Client-Server Model]()
-- [(Au cas où)]()
+- **Référence :** [Client-Server Model](https://create.roblox.com/docs/reference/engine/classes/RemoteEvent)
+- [(Au cas où)](https://create.roblox.com/docs/fr-fr/scripting/events/remote)
 
-Tâche finale imo
+### Tâche finale
 
-Objectif :
+**Objectif :**
 Concevoir un mini-jeu "Tapez la Taupe" où le joueur doit cliquer sur des objets qui apparaissent aléatoirement à divers emplacements pendant un court intervalle de temps.
 
 Des "taupes" (ou un objet équivalent) émergent à intervalles aléatoires de trous sur le terrain.
