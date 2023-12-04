@@ -12,18 +12,18 @@ Bonjour et bienvenue dans ce Workshop d'initiation à Roblox Studio.
 ### Tâche 1 : Explorer l'interface de Roblox Studio
 
 Ouvrez Roblox Studio.
-<br>Créer votre place, en appuyant sur le "+" et en selectionant un template.
+<br>Créez votre place, en appuyant sur le "+" et en selectionant un template.
 <br>Familiarisez-vous avec l'interface utilisateur, y compris les outils principaux et les onglets comme le Visualiseur, l'Explorateur et les Propriétés.
 
 ### Tâche 2 : Créer et manipuler un Part dans l'Explorateur
 
 Insérez un Part simple dans votre espace de travail en utilisant l'onglet "Modèle".
-<br>Sélectionnez le Part que vous avez inséré et utilisez la fenêtre des Propriétés pour changer ses attributs, comme la taille, la couleur et la position.
+<br>Sélectionnez le Part que vous avez insérée et utilisez la fenêtre des Propriétés pour changer ses attributs, comme la taille, la couleur et la position.
 
 ## Section 2 : Apprentissage de la programmation avec Knit dans Roblox
 
 ### Tâche 1 : Création d'un Part par Script
-- Dans "ServerScriptService", ajouter un scrip qui créer un Part.
+- Dans "ServerScriptService", ajouter un script qui crée un Part.
 - Le Part doit être visible et accessible dans votre **Workspace** au lancement de votre jeu.
 - **Référence :** [Creating Parts with Code](https://developer.roblox.com/en-us/api-reference/function/Instance/new)
 <br><br>N'oubliez pas de rajouter des Propriétés à votre Part! Certaines Propriétés comme sa position et son parent sont nécessaire à l'affichage de votre Part.
